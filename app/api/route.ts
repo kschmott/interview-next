@@ -8,7 +8,8 @@ should be easily extensible to add more social media platforms in the future.
 The process for uploading a user's information is as follows:
 1. A user uploads their information to our system
 2. This route is called with a POST request to request the information be posted to a
-social media platform
+social media platform. each social media platform requires the same user data to upload,
+but their configurations could be different(ie api keys, account id etc)
 3. Once the information is posted, the user's information is updated in our system
 4. Finally, the user is notified that their information has been posted
 
