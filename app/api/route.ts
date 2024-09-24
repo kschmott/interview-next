@@ -15,8 +15,8 @@ but their configurations could be different(ie api keys, account id etc)
 
 Each of these steps should be easily testable and should be able to be run in isolation, ie 
 they should be able to be mocked. Each step should also be able to be easily swapped out for a
-different implementation. For example, we may want to change the way we notify via email OR text 
-to the user that their information has been posted.
+different implementation. For example, we may want to change the way we notify the user that their information has been posted.
+We would want to send an email or text potenially via email OR text 
 
 Please design a system that meets these requirements, the actual implementation of the system
 is not required, just the design.
