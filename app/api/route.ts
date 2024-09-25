@@ -6,7 +6,7 @@ design a system that will allow us to post to Instagram and TikTok. The system s
 should be easily extensible to add more social media platforms in the future.
 
 The process for uploading a user's information is as follows:
-1. A user uploads their information to our system
+1. A user uploads their information to our system (not part of this interface, just for context)
 2. This route is called with a POST request to request the information be posted to a
 social media platform. each social media platform requires the same user data to upload,
 but their configurations could be different(ie api keys, account id etc)
